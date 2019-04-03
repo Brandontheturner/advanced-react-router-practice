@@ -42,9 +42,15 @@ function SideNav() {
           </Link>
         </li>
         <li>
-          <Link to="/marquee/:text">
+          <Link to="/marquee/word">
             <i className="fa fa-fw fa-table" />
-            Marquee
+            MarqueeOne
+          </Link>
+        </li>
+        <li>
+          <Link to="/marquee/Another-Word">
+            <i className="fa fa-fw fa-table" />
+            MarqueeTwo
           </Link>
         </li>
       </ul>
